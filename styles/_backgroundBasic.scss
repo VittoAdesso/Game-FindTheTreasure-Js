@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    /* puedo utilizar lo siguiente para que me centre todo , me puedo ahorra varios pasos*/
+}
+
+.title {
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .treasure {
+        border-radius: 10%;
+        box-shadow: cadetblue;
+    }
+}
+
+.distance {
+    font-size: 2em;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-size-adjust: 20;
+    color: whitesmoke;
+}

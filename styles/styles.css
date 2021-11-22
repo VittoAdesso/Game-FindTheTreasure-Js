@@ -1,0 +1,53 @@
+body {
+  background-color: #81bd7f;
+  color: white;
+  /* puedo utilizar lo siguiente para que me centre todo , me puedo ahorra varios pasos*/
+}
+
+.title {
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .treasure {
+  border-radius: 10%;
+  -webkit-box-shadow: cadetblue;
+          box-shadow: cadetblue;
+}
+
+.distance {
+  font-size: 2em;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+a {
+  -webkit-text-size-adjust: 20;
+     -moz-text-size-adjust: 20;
+      -ms-text-size-adjust: 20;
+          text-size-adjust: 20;
+  color: whitesmoke;
+}
+/*# sourceMappingURL=styles.css.map */
